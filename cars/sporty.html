@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporty Hatchbacks - Cars Hub</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        body {
+            background-image: url('../assets/images/background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.85);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+        }
+
+        .card-img-top {
+            background: none !important;
+            opacity: 1 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Cars Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../contacts.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Sporty Hatchbacks</h1>
+            <p class="lead">Discover our range of sporty hatchbacks designed for performance and style.</p>
+        </div>
+    </section>
+
+    <!-- Car Cards Section -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-4 h-100">
+                    <img src="../assets/images/bmw-1-series-blue-2019.jpg" class="card-img-top" alt="BMW 1 Series">
+                    <div class="card-body">
+                        <h5 class="card-title">BMW 1 Series</h5>
+                        <p class="card-text">A compact hatchback that combines sporty performance with luxury features.
+                            Dynamic driving and agile handling.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Engine: Turbocharged 2.0L 4-cylinder</li>
+                            <li class="list-group-item">Horsepower: 228 hp</li>
+                            <li class="list-group-item">0-60 mph: 6.3 seconds</li>
+                            <li class="list-group-item">Fuel Economy: 26 mpg city / 36 mpg highway</li>
+                            <li class="list-group-item">Price: Starting at £15,000</li>
+                        </ul>
+                        <a href="../contacts.html" class="btn btn-outline-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 h-100">
+                    <img src="../assets/images/mercedes-grey-aclass.jpg" class="card-img-top" alt="Mercedes A-Class">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercedes A-Class</h5>
+                        <p class="card-text">A stylish and sporty hatchback with a premium driving experience. Sleek
+                            design, advanced tech, and comfort.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Engine: Turbocharged 2.0L 4-cylinder</li>
+                            <li class="list-group-item">Horsepower: 188 hp</li>
+                            <li class="list-group-item">0-60 mph: 6.9 seconds</li>
+                            <li class="list-group-item">Fuel Economy: 25 mpg city / 35 mpg highway</li>
+                            <li class="list-group-item">Price: Starting at £19,000</li>
+                        </ul>
+                        <a href="../contacts.html" class="btn btn-outline-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 h-100">
+                    <img src="../assets/images/mini-cooper.jpg" class="card-img-top" alt="Mini Cooper S">
+                    <div class="card-body">
+                        <h5 class="card-title">Mini Cooper S</h5>
+                        <p class="card-text">Classic style meets modern performance. Agile handling and turbocharged
+                            engine for an exciting drive.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Engine: 2.0L Turbocharged</li>
+                            <li class="list-group-item">Horsepower: 189 HP</li>
+                            <li class="list-group-item">0-60 mph: 6.5 seconds</li>
+                            <li class="list-group-item">Transmission: 6-speed manual</li>
+                            <li class="list-group-item">Price: Starting at £22,000</li>
+                        </ul>
+                        <a href="../contacts.html" class="btn btn-outline-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 h-100">
+                    <img src="../assets/images/ford.jpg" class="card-img-top" alt="Ford Focus ST">
+                    <div class="card-body">
+                        <h5 class="card-title">Ford Focus ST</h5>
+                        <p class="card-text">A sporty hatchback with sharp handling and a turbocharged engine. Perfect
+                            for driving enthusiasts.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Engine: 2.3L EcoBoost</li>
+                            <li class="list-group-item">Horsepower: 280 HP</li>
+                            <li class="list-group-item">0-60 mph: 5.7 seconds</li>
+                            <li class="list-group-item">Transmission: 6-speed manual</li>
+                            <li class="list-group-item">Price: Starting at £21,000</li>
+                        </ul>
+                        <a href="../contacts.html" class="btn btn-outline-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Prescius Hatchbacks. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

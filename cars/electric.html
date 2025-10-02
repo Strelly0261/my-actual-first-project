@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Hatchbacks - Cars Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+            background-color: rgba(255, 255, 255, 0.85);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        body {
+            background-image: url('../assets/images/background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            min-height: 100vh;
+        }
+
+        .card-img-top {
+            background: none !important;
+            opacity: 1 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Cars Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../contacts.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Electric Hatchbacks</h1>
+            <p class="lead">Discover our selection of sporty and eco-friendly electric hatchbacks.</p>
+        </div>
+    </section>
+
+    <!-- Car Cards Section -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 h-100">
+                    <img src="../assets/images/egolf.jpg" class="card-img-top" alt="VW e-Golf">
+                    <div class="card-body">
+                        <h5 class="card-title">VW e-Golf</h5>
+                        <p class="card-text">A sporty and efficient electric hatchback from Volkswagen.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Range: 125 miles</li>
+                            <li class="list-group-item">Battery: 35.8 kWh</li>
+                            <li class="list-group-item">Charging: 80% in 45 min</li>
+                            <li class="list-group-item">Price: Starting at £27,000</li>
+                        </ul>
+                        <a href="../contacts.html" class="btn btn-outline-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 h-100">
+                    <img src="../assets/images/Hyundai.jpg" class="card-img-top" alt="Hyundai Electric">
+                    <div class="card-body">
+                        <h5 class="card-title">Hyundai Electric</h5>
+                        <p class="card-text">Hyundai's stylish and innovative electric car for modern drivers.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Range: 193 miles</li>
+                            <li class="list-group-item">Battery: 38.3 kWh</li>
+                            <li class="list-group-item">Charging: 80% in 54 min</li>
+                            <li class="list-group-item">Price: Starting at £25,000</li>
+                        </ul>
+                        <a href="../contacts.html" class="btn btn-outline-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 h-100">
+                    <img src="../assets/images/tesla-.jpg" class="card-img-top" alt="Tesla">
+                    <div class="card-body">
+                        <h5 class="card-title">Tesla Model 3</h5>
+                        <p class="card-text">The iconic electric car known for performance and technology.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">Range: 263 miles</li>
+                            <li class="list-group-item">Battery: 54 kWh</li>
+                            <li class="list-group-item">Charging: 80% in 30 min</li>
+                            <li class="list-group-item">Price: Starting at £42,000</li>
+                        </ul>
+                        <a href="../contacts.html" class="btn btn-outline-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Prescious Hatchbacks. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
